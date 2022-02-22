@@ -65,6 +65,6 @@ p {
 
 .prices {
     display: flex;
-    margin-top: 7px;
+    margin-top: 5px;
     justify-content: space-between;
 }
