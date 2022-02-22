@@ -56,7 +56,9 @@ p {
 }
 
 .coffee-pic {
-    align-items: center;
+    display: flex;
+    margin-top: 0px;
+    justify-content: center;
 }
 
 .maps {
@@ -67,4 +69,10 @@ p {
     display: flex;
     margin-top: 5px;
     justify-content: space-between;
+}
+
+.maps {
+    display: flex;
+    margin-top: 0px;
+    justify-content: center;
 }
