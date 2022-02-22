@@ -1,0 +1,72 @@
+html {
+    --black: #000;
+    --orange: #FF5500;
+    --white: #fff;
+}
+
+body {
+    font-family: Open Sans, sans-serif;
+}
+
+.cotainer {
+    display: grid;
+    gap: 1rem;
+    max-width: 428px;
+    margin: 0 auto;
+}
+
+header {
+    background-size: cover;
+    background-color: #fff;
+    height: 10vw;
+    text-align: left;
+}
+
+
+h1 {
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-align: left;
+    margin-left: 22pt;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: left;
+    margin-left: 22pt;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: left;
+    margin-left: 22pt;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-left: 22pt;
+}
+
+.coffee-pic {
+    align-items: center;
+}
+
+.maps {
+    align-items: center;
+}
+
+
+.three-column {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 3fr 1fr 1fr;
+    margin-top: 2rem;
+    margin-left: 2rem;
