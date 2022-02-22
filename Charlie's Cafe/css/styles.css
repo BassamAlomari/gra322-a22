@@ -63,10 +63,8 @@ p {
     align-items: center;
 }
 
-
-.three-column {
-    display: grid;
-    grid-gap: 1rem;
-    grid-template-columns: 3fr 1fr 1fr;
-    margin-top: 2rem;
-    margin-left: 2rem;
+.prices {
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-between;
+}
