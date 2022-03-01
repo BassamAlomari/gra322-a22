@@ -8,20 +8,12 @@ body {
     font-family: Open Sans, sans-serif;
 }
 
-.cotainer {
-    display: grid;
-    gap: 1rem;
-    max-width: 428px;
-    margin: 0 auto;
-}
-
 header {
     background-size: cover;
     background-color: #fff;
     height: 10vw;
     text-align: left;
 }
-
 
 h1 {
     font-size: 30px;
@@ -39,36 +31,20 @@ h2 {
     margin-left: 22pt;
 }
 
-h3 {
-    font-size: 18px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    text-align: left;
-    margin-left: 22pt;
-}
-
-p {
-    font-size: 16px;
-    font-weight: 300;
-    letter-spacing: 0px;
-    text-align: left;
-    margin-left: 22pt;
-}
-
 .coffee-pic {
-    display: flex;
-    margin-top: 0px;
-    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 232px;
+    width: 348px;
 }
 
 .maps {
-    align-items: center;
-}
-
-.maps {
-    display: flex;
-    margin-top: 0px;
-    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 232px;
+    width: 348px;
 }
 
 table {
@@ -88,3 +64,5 @@ table {
   .price {
     font-weight: bold;
   }
+
+  
