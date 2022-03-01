@@ -13,6 +13,9 @@ header {
     background-color: #fff;
     height: 10vw;
     text-align: left;
+    border-bottom: 7px solid var(--orange);
+    width: 100%;
+    padding: 0px;
 }
 
 h1 {
@@ -24,6 +27,9 @@ h1 {
 }
 
 h2 {
+    border-bottom: 7px solid var(--orange);
+    width: 100%;
+    padding: 0px;
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 1px;
@@ -33,18 +39,26 @@ h2 {
 
 .coffee-pic {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 232px;
-    width: 348px;
+    margin-left: 36px;
+    margin-right: 36px;
+    
+}
+.coffee-pic img{
+    border: 7px solid var(--orange);
+    width: 100%;
+    padding: 0px;
 }
 
 .maps {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 232px;
-    width: 348px;
+    margin-left: 36px;
+    margin-right: 36px;
+}
+
+.maps img {
+    border: 7px solid var(--orange);
+    width: 100%;
+    padding: 0px;
 }
 
 table {
@@ -65,4 +79,10 @@ table {
     font-weight: bold;
   }
 
+  p {
+    margin-left: 22pt;  
+  }
   
+  .footer {
+    border-top: 7px solid var(--orange);
+  }
