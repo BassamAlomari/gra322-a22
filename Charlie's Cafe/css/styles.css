@@ -165,6 +165,14 @@ table {
     font-size: 18px;
     font-weight: 200;
   }
+
+  .map-info {
+    display: flex;
+  }
+
+  .topper {
+    display: flex;
+  }
   }
 
   @media screen and (min-width: 1400px) {
@@ -218,5 +226,13 @@ table {
     padding: 1rem;
     font-size: 20px;
     font-weight: 200;
+  }
+
+  .map-info {
+    display: flex;
+  }
+
+  .topper {
+    display: flex;
   }
   }
