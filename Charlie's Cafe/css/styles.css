@@ -128,6 +128,42 @@ table {
     color: #FF5500;
   }
 
+  ul {
+    margin-left: auto;
+  }
+  ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 1rem;
+  
+}
+
+.links {
+  display: flex;
+  font-size: 20px;
+}
+
+.drinks {
+  margin-left: auto;
+}
+
+.links li {
+  padding: 1rem;
+}
+
+
+@media screen and (max-width:768px) {
+  .links {
+    display:none
+  }
+}
+
+.heder {
+  display: flex;
+}
+
+
+
   @media screen and (min-width: 768px) {
     header {
       background-size: cover;
@@ -194,6 +230,17 @@ table {
   .food-two {
     display: flex;
   }
+
+  ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.heder {
+  display: flex;
+}
+
   }
 
   @media screen and (min-width: 1400px) {
@@ -256,4 +303,14 @@ table {
   .topper {
     display: flex;
   }
+
+  ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.heder {
+  display: flex;
+}
   }
