@@ -173,6 +173,12 @@ table {
   .topper {
     display: flex;
   }
+  .drinks {
+    display: flex;
+  }
+  .food-two {
+    display: flex;
+  }
   }
 
   @media screen and (min-width: 1400px) {
@@ -234,5 +240,4 @@ table {
 
   .topper {
     display: flex;
-  }
   }
