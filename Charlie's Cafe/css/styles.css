@@ -113,6 +113,21 @@ table {
     width: 49%
   }
 
+  .fa-twitter {
+    color: #FF5500;
+    font-size: 25px;
+  }
+  
+  .fa-instagram {
+    font-size: 25px;
+    color: #FF5500;
+  }
+
+  .fa-facebook {
+    font-size: 25px;
+    color: #FF5500;
+  }
+
   @media screen and (min-width: 768px) {
     header {
       background-size: cover;
