@@ -1,0 +1,37 @@
+Header {
+    display: flex;
+    align-items: baseline;
+    gap: 3rem;
+    padding: 25px;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-align: left; 
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-align: right;
+}
+
+ul li {
+    list-style-type: none;
+    margin-top: 1rem;
+}
+
+.intro {
+    padding: 25px;
+    align-items: center;
+}
+
+img {
+    width: 50%;
+    align-content: center;
+    display: block; 
+}
+
