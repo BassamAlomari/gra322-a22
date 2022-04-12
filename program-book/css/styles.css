@@ -5,6 +5,10 @@ Header {
     padding: 25px;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 h1 {
     font-size: 25px;
     font-weight: 800;
@@ -22,6 +26,7 @@ h2 {
 ul li {
     list-style-type: none;
     margin-top: 1rem;
+    padding-right: 30rem;
 }
 
 .intro {
@@ -30,8 +35,8 @@ ul li {
 }
 
 img {
-    width: 50%;
     align-content: center;
     display: block; 
+    padding-right: 30px;
 }
 
