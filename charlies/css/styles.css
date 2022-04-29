@@ -157,6 +157,7 @@ table {
   display: flex;
 }
 
+
 @media screen and (max-width:768px) {
   .links {
     display:none
@@ -178,9 +179,7 @@ table {
       width: 100%;
       padding: 20px;
   }
-  .bars {
-    display: flex;
-  }
+  
   h1 {
       font-size: 40px;
       font-weight: 800;
