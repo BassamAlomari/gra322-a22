@@ -103,6 +103,7 @@ table {
   
   .footer {
     border-top: 7px solid var(--orange);
+    line-height: 250%;
   }
 
   th:first-child {
@@ -120,6 +121,11 @@ table {
   }
 
   .fa-facebook {
+    font-size: 25px;
+    color: #FF5500;
+  }
+
+  .fa-bars {
     font-size: 25px;
     color: #FF5500;
   }
@@ -147,6 +153,9 @@ table {
   padding: 1rem;
 }
 
+.socials {
+  display: flex;
+}
 
 @media screen and (max-width:768px) {
   .links {
@@ -169,7 +178,9 @@ table {
       width: 100%;
       padding: 20px;
   }
-  
+  .bars {
+    display: flex;
+  }
   h1 {
       font-size: 40px;
       font-weight: 800;
@@ -215,13 +226,16 @@ table {
 
   .map-info {
     display: flex;
+    flex-direction: row-reverse;
   }
 
   .topper {
     display: flex;
+    
   }
   .drinks {
     display: flex;
+    gap: 5rem;
   }
   .food-two {
     display: flex;
@@ -237,7 +251,9 @@ table {
   display: flex;
 }
 
-  }
+.fa-bars {
+  display: none;
+}
 
   @media screen and (min-width: 1400px) {
     header {
@@ -294,6 +310,7 @@ table {
 
   .map-info {
     display: flex;
+    flex-direction: row-reverse;
   }
 
   .topper {
@@ -309,4 +326,7 @@ table {
 .heder {
   display: flex;
 }
+  }
+  .maps img {
+    padding: 0px;
   }
