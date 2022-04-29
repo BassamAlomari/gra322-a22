@@ -326,12 +326,12 @@ table {
     list-style-type: none;
     display: inline-block;
     margin-top: 1rem;
-}
-
-.heder {
-  display: flex;
-}
   }
+
+  .heder {
+    display: flex;
+  }
+
   .maps img {
     padding: 0px;
   }
