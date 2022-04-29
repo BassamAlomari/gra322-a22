@@ -158,13 +158,6 @@ table {
   display: flex;
 }
 
-
-@media screen and (max-width:768px) {
-  .links {
-    display:none
-  }
-}
-
 .barz {
   margin-left: auto;
 }
@@ -174,9 +167,14 @@ table {
   display: flex;
 }
 
+@media screen and (max-width:768px) {
+  .links {
+    display:none
+  }
+}
 
 
-  @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
     header {
       background-size: cover;
       background-color: #fff;
@@ -250,17 +248,18 @@ table {
     list-style-type: none;
     display: inline-block;
     margin-top: 1rem;
-}
+  }
 
-.heder {
+  .heder {
   display: flex;
-}
+  }
 
-.fa-bars {
+  .fa-bars {
   display: none;
+  }
 }
-
-  @media screen and (min-width: 1400px) {
+  
+@media screen and (min-width: 1400px) {
     header {
       background-size: cover;
       background-color: #fff;
@@ -335,3 +334,4 @@ table {
   .maps img {
     padding: 0px;
   }
+}
