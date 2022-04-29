@@ -127,7 +127,8 @@ table {
 
   .fa-bars {
     font-size: 25px;
-    color: #FF5500;
+    color: black;
+    margin-top: 0.5rem;
   }
 
   ul {
@@ -163,6 +164,11 @@ table {
     display:none
   }
 }
+
+.barz {
+  margin-left: auto;
+}
+
 
 .heder {
   display: flex;
