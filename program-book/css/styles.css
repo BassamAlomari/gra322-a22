@@ -1,5 +1,6 @@
 Header {
     display: flex;
+    justify-content: space-between;
     align-items: baseline;
     gap: 3rem;
     padding: 25px;
@@ -10,14 +11,14 @@ body {
 }
 
 h1 {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 800;
     letter-spacing: 1px;
     text-align: left; 
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 800;
     letter-spacing: 1px;
     text-align: right;
@@ -52,6 +53,7 @@ a {
 
 p {
     margin-left: 25px;
+    font-size: 16px;
 }
 
 footer { 
@@ -77,11 +79,26 @@ footer p {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
+
+    h1 {
+        font-size: 30px;
+    }
+    
+    h2 {
+        font-size: 20px;
+    }
 }
 
 @media screen and (min-width: 1400px) {
     .imagegrid1 {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+    }
+    h1 {
+        font-size: 35px;
+    }
+    
+    h2 {
+        font-size: 25px;
     }
 }
