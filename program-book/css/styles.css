@@ -37,6 +37,16 @@ ul li {
 img {
     align-content: center;
     display: block; 
-    padding-right: 30px;
+    padding-right: 25px;
+    padding: 25px;
 }
 
+a {
+    text-decoration: none; 
+    background-color: none; 
+    color: black;
+}
+
+p {
+    margin-left: 25px;
+}
