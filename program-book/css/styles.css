@@ -18,17 +18,18 @@ h1 {
 }
 
 h2 {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 800;
     letter-spacing: 1px;
     text-align: right;
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
     letter-spacing: 1px;
     margin-left: 25px;
+    margin-bottom: 1rem;
 }
 
 ul li {
@@ -43,6 +44,7 @@ img {
     display: block; 
     padding-right: 25px;
     padding: 25px;
+    max-width: 100%;
 }
 
 a {
@@ -54,15 +56,24 @@ a {
 p {
     margin-left: 25px;
     font-size: 16px;
+    margin-right: 25px;
 }
 
 footer { 
     background-color:lightgray;
     padding: 1.5rem 0;
+    margin-top: 1rem;
 }
 
 footer p {
     margin-bottom: 0;
+}
+
+iframe {
+    display: block;
+    margin-left: 23px;
+    margin-right: 17.7rem;
+    margin-bottom: 2.5rem;
 }
 
 @media only screen and (max-width: 500px) {
@@ -70,6 +81,7 @@ footer p {
 .imagegrid1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+
 }
 
 } 
@@ -86,7 +98,13 @@ footer p {
     
     h2 {
         font-size: 20px;
+        
     }
+
+    h3 {
+        font-size: 20px;
+    }
+
 }
 
 @media screen and (min-width: 1400px) {
@@ -95,10 +113,29 @@ footer p {
         grid-template-columns: repeat(3, 1fr);
     }
     h1 {
-        font-size: 35px;
+        font-size: 35px;  
     }
     
     h2 {
         font-size: 25px;
+    }
+
+    h3 {
+        font-size: 20px;  
+    }
+    .cloumn {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+        padding: 0 3rem;
+        margin-bottom: 3rem;
+    }
+
+    .finalsgrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        padding: 0 3rem;
+        margin-bottom: 3rem;
     }
 }
