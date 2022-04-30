@@ -27,7 +27,7 @@ h3 {
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 1px;
-    text-align: left;
+    margin-left: 25px;
 }
 
 ul li {
@@ -36,10 +36,6 @@ ul li {
     padding-right: 30rem;
 }
 
-.intro {
-    padding: 25px;
-    align-items: center;
-}
 
 img {
     align-content: center;
@@ -66,3 +62,12 @@ footer {
 footer p {
     margin-bottom: 0;
 }
+
+@media only screen and (max-width: 500px) {
+
+.imagegrid1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+} 
