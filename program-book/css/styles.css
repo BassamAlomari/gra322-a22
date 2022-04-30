@@ -57,3 +57,12 @@ a {
 p {
     margin-left: 25px;
 }
+
+footer { 
+    background-color:lightgray;
+    padding: 1.5rem 0;
+}
+
+footer p {
+    margin-bottom: 0;
+}
