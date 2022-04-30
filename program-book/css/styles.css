@@ -23,6 +23,13 @@ h2 {
     text-align: right;
 }
 
+h3 {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
 ul li {
     list-style-type: none;
     margin-top: 1rem;
