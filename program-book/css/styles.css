@@ -69,11 +69,10 @@ footer p {
     margin-bottom: 0;
 }
 
-iframe {
-    display: block;
+.vid {
     margin-left: 23px;
-    margin-right: 17.7rem;
     margin-bottom: 2.5rem;
+    margin-right: 10rem;
 }
 
 @media only screen and (max-width: 500px) {
